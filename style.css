@@ -75,7 +75,7 @@ nav {
     display: flex;
     flex-direction: column;
     z-index: 3;
-    box-shadow: rgba(128, 128, 128, 0.753) 0 1px 5px;
+    box-shadow: rgba(128, 128, 128, 0.753) 0 1px 1px;
     padding-bottom: 1em;
     
     transform: scaleY(0);
