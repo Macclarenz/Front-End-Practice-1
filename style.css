@@ -814,7 +814,6 @@ ul[class*='cc-section'] {
     .cc-section {
         display: grid;
         grid-template-columns: minmax(260px, 270px) minmax(320px, 400px) minmax(320px, 400px);
-        grid-column-gap: 10px;
         justify-items: start;
         justify-content: start;
         grid-template-areas: '1st 2nd 3rd';
