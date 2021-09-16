@@ -741,10 +741,9 @@ ul[class*='cc-section'] {
         justify-self:left;
     }
 
-    .gyf-text-detail :is(h1, p){
+    .cc-first-detail :where(h1, p) {
+        margin: 0;
         text-align: left;
-        margin-top: 0;
-        margin-inline: 0;
     }
 
     .gyf-text-detail p {
@@ -814,7 +813,8 @@ ul[class*='cc-section'] {
 
     .cc-section {
         display: grid;
-        grid-template-columns: minmax(260px, auto) minmax(320px, 400px) minmax(320px, 400px);
+        grid-template-columns: minmax(260px, 270px) minmax(320px, 400px) minmax(320px, 400px);
+        grid-column-gap: 10px;
         justify-items: start;
         justify-content: start;
         grid-template-areas: '1st 2nd 3rd';
@@ -835,7 +835,8 @@ ul[class*='cc-section'] {
         margin: 0;   
     }
 
-    .cc-first-detail {
+    .cc-first-detail h1, 
+    .cc-first-detail p {
         text-align: left;
     }
 
